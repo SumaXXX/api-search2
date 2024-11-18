@@ -1,0 +1,59 @@
+html {
+    background-color: #C4C4C4;
+}
+
+p {
+    
+}
+
+.search-card {
+    background-color: #E3E3E3;
+    width: 274px;
+    margin: 0
+}
+
+.search-card > p {
+    padding: 2px;
+    margin: 0;
+    padding-bottom: 8px;
+    padding-left: 2px;
+
+    border: 1px solid;
+}
+
+.search-card:hover {
+    background-color: #65CDF9;
+}
+
+.search-field {
+    border: none;
+    height: 24px;
+    font-size: 16px;
+    width: 270px;
+}
+
+.added-cards {
+    margin-top: 20px;
+}
+
+.addedCard {
+    background-color: #E27BEB;
+    border: 1px solid;
+    width: 274px;
+    position: relative;
+}
+.addedCard > p {
+    padding: 2px;
+    margin: 0;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.close-button {
+    position: absolute;
+    width: 55px;
+    height: auto;
+    top: 0.2rem;
+    left: 78%;
+}
